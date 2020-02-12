@@ -32,31 +32,31 @@ Team Number: F7
 
 7. Profile of UART: Sent X bytes in Y time 
 
-    your answer here
+    Sent 14 bytes in 14.963ms
 
 8. Profile of SPI: Sent X bytes in Y time
 
-    your answer here
+    Sent 15 bytes in 0.407ms
 
 9. Why is SPI so much faster than UART?
 
-    your answer here
+    SPI is faster than UART because it uses synchronous communication, waiting for a response and immediately sending a reply, as opposed to UART which uses asynchronous communication.
 
 10. list one pro and one con of UART
 
-    your answer here
+    Because UART uses asynchronous communication, it does not wait for a message and does not have a master-slave connection so the con of this is that it is slower but the pro of this is that it can do multiple actions at the same time and is not hung up waiting for a message.
 
 11. list one pro and one con of SPI
 
-    your answer here
+    The SPI is faster because it uses synchronous communication but it also has to wait for a message to arrive so there is a lot of waiting time.
 
 12. list one pro and one con of I2C
 
-    your answer here
+    I2C is also synchronous but is simpler than SPI but is slower than SPI.
 
 13. Why does I2C need external resistors to work?
 
-    your answer here
+    I2C needs external resistors for pull-up of the line to Vcc.
 
 ## Screenshots
 
@@ -67,7 +67,7 @@ Procedure A, step 4:
 ![Put path to your image here ->](img/dimlogic.png)
 
 Procedure B, UART:
-![Put path to your image here ->](img/placeholder.png)
+![Put path to your image here ->](img/message.png)
 
 Procedure B, SPI:
-![Put path to your image here ->](img/placeholder.png)
+![Put path to your image here ->](img/message2.png)
